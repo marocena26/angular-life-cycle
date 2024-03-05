@@ -2,6 +2,7 @@
     "conventionalCommits.scopes": [
         "app",
         "product",
-        "price"
+        "price",
+        "readme"
     ]
 }
