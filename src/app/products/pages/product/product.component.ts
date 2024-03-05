@@ -29,53 +29,54 @@ export class ProductComponent
 {
   // Siempre que queramos llamar a un Hook/método debemos implementarlo, sino no hacemos no lo detecta y no lo llama
 
-  constructor() {}
+  public isProductVisible: boolean = false;
+  public currentPrice: number = 10;
+
+  constructor() {
+    console.log('Constructor')
+  }
 
   // ? ngOnInit - Primera carga
-
   ngOnInit(): void {
     console.log('ngOnInit');
   }
 
   // ? ngOnChanges - para determinar los cambios y reaccionar
-
   ngOnChanges(changes: SimpleChanges): void {
     console.log('ngOnChanges');
   }
 
   // ? ngDoCheck
-
   ngDoCheck(): void {
     console.log('ngDoCheck');
   }
 
   // ? ngAfterContentInit
-
   ngAfterContentInit(): void {
     console.log('ngAfterContentInit');
   }
 
   // ? ngAfterContentChecked
-
   ngAfterContentChecked(): void {
     console.log('ngAfterContentChecked');
   }
 
   // ? ngAfterViewInit
-
   ngAfterViewInit(): void {
     console.log('ngAfterViewInit');
   }
 
   // ? ngAfterViewChecked
-
   ngAfterViewChecked(): void {
     console.log('ngAfterViewChecked');
   }
 
-  // ? ngOnInit
-
+  // ? ngOnDestroy
   ngOnDestroy(): void {
     console.log('ngOnDestroy');
+  }
+
+  increasePrice() {
+    this.currentPrice++;
   }
 }
