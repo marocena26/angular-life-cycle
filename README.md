@@ -1,8 +1,14 @@
-# 09LifeCycle
+# Life Cycle project 🌱​
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+## 👩🏻‍💻 Author 
 
-## Component Lifecycle
+- **Elena Arocena: [@marocena26](https://github.com/marocena26)**
+
+## 👉🏻 Hey, look here! 
+
+This project belongs to the series **Angular: de cero a experto**, in the attached repository you will find all the challenges finished so far, just click on [here](https://github.com/marocena26/Angular-from-zero-to-expert) 😋.
+
+## 📖 Component Lifecycle 
 
 A component instance has a lifecycle that starts when Angular instantiates the component class and renders the component view along with its child views. The lifecycle continues with change detection, as Angular checks to see when data-bound properties change, and updates both the view and the component instance as needed. The lifecycle ends when Angular destroys the component instance and removes its rendered template from the DOM. Directives have a similar lifecycle, as Angular creates, updates, and destroys instances in the course of execution.
 
@@ -63,3 +69,20 @@ A component-only hook
 Cleanup just before Angular destroys the directive/component. Unsubscribe Observables and detach event handlers to avoid memory leaks.
 
 Called just before Angular destroys the directive/component.
+
+## 💾 Steps to follow to use this project on your computer:
+
+> This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+
+1. Click on the top right corner > **Fork**.
+2. It will ask you to choose which GitHub user you want to fork it to. **Choose your user**.
+3. **Go to github.com/your-user/name-of-project**, **clone it** and do whatever you want, you can rename the repo, change the code, redeploy it to GitHub Pages...
+4. **Finally** and for everything to work properly, **you must disable GitHub Pages and re-enable** it so that GitHub generates the new URL correctly.
+
+### Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## ✨ Credits
+
+- [Angular: de cero a experto](https://www.udemy.com/course/angular-fernando-herrera/) - [@Klerith](https://github.com/Klerith)
